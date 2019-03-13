@@ -1,7 +1,14 @@
 filelist
 
-filter.exe                                  - скомпилированный исходник в Visual Studio Ultimate 2010
-muzic_header.bin                            - Отделенный заголовок WAV 44 байт
-muzic.bin                                   - Отделенные PCM отсчеты АЦП 16 бит, знаковые
-source.wav                                  - Музыкальный фрагмент конвертированный в WAV в МОНО формате
-The FatRat - Monody (feat Laura Brehm).mp3  - Исходный музыкальный фрагмент в формате mp3
+filter.exe                                  - compiled source in Visual Studio Ultimate 2010
+muzic_header.bin                            - Separated wav header 44 bytes
+muzic.bin                                   - PCM separated 16-bit ADC counts, signed
+source.wav                                  - Musical fragment converted to WAV in MONO format
+The FatRat - Monody (feat Laura Brehm).mp3  - Original mp3 music
+
+
+/src
+    resource.h                              - resource header file
+    Gramophone.ico                          - application icon
+    filter.c                                - filter source code
+    my_filter.m                             - MatLAB filter source code
