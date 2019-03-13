@@ -1,5 +1,8 @@
 filelist
 
+/
+README.md                                   - readme file
+filelist.txt                                - this file
 filter.exe                                  - compiled source in Visual Studio Ultimate 2010
 muzic_header.bin                            - Separated wav header 44 bytes
 muzic.bin                                   - PCM separated 16-bit ADC counts, signed
@@ -8,7 +11,9 @@ The FatRat - Monody (feat Laura Brehm).mp3  - Original mp3 music
 
 
 /src
-    resource.h                              - resource header file
-    Gramophone.ico                          - application icon
     filter.c                                - filter source code
     my_filter.m                             - MatLAB filter source code
+    /resource
+            filter.rc                       - resource file
+            resource.h                      - resource header file
+            Gramophone.ico                  - application icon

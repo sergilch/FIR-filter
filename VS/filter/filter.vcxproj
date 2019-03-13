@@ -10,20 +10,8 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\src\filter.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="resource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="filter.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\src\Gramophone.ico" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{105E45B1-FACF-4047-AD11-36814ADCC91D}</ProjectGuid>
+    <ProjectGuid>{2025DC5B-4D7A-4888-A937-4A4705B504ED}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>filter</RootNamespace>
   </PropertyGroup>
@@ -85,6 +73,18 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\filter.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\resource\filter.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\resource\Gramophone.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\resource\resource.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
