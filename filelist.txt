@@ -1,0 +1,7 @@
+filelist
+
+filter.exe                                  - скомпилированный исходник в Visual Studio Ultimate 2010
+muzic_header.bin                            - Отделенный заголовок WAV 44 байт
+muzic.bin                                   - Отделенные PCM отсчеты АЦП 16 бит, знаковые
+source.wav                                  - Музыкальный фрагмент конвертированный в WAV в МОНО формате
+The FatRat - Monody (feat Laura Brehm).mp3  - Исходный музыкальный фрагмент в формате mp3
